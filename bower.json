@@ -1,0 +1,12 @@
+{
+  "name": "google-api-loader-test",
+  "description": "",
+  "homepage": "",
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.2",
+    "google-apis": "~0.3.3"
+  }
+}

@@ -1,0 +1,17 @@
+<link rel="import" href="bower_components/google-apis/google-client-api.html">
+
+<polymer-element name="app-main">
+  <template>
+    <google-api-loader
+      id="drive"
+      name="drive"
+      version="v2">
+    </google-api-loader>
+
+    <p>
+      <input id="token" type="text"></input>
+      <button id="button1">enter token</button>
+    </p>
+  </template>
+  <script src="app-main.js"></script>
+</polymer-element>
